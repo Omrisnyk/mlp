@@ -42,7 +42,7 @@
     "react-scroll": "^1.8.1",
     "react-sticky": "^6.0.3",
     "resize-observer-polyfill": "^1.5.1",
-    "yup": "^0.29.3"
+    "yup": "^0.30.0"
   },
   "peerDependencies": {
     "@elastic/eui": "^32.3.0",
