@@ -21,7 +21,7 @@ RUN go build -o bin/mlp-api ./api/cmd/main.go
 # ============================================================
 # Build stage 3: Run the app
 # ============================================================
-FROM alpine:3.12
+FROM alpine:3.16
 COPY --from=node-builder /src/ui/build ./ui/build
 COPY --from=go-builder /src/api/bin/mlp-api /usr/bin/mlp
 CMD ["mlp"]
